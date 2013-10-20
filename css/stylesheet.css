@@ -152,11 +152,13 @@ nav a {
     margin-bottom: -20px;
 }
 
-    margin: 25px auto;
     width: 128px;
     height: 55px;
     border-radius: 5px;
 #su-button {    
+    right: 20px;
+    position: absolute;
+    margin: 40px auto;
     background-color: #3C3C3C;
 }
 
@@ -187,9 +189,6 @@ nav a {
 }
 
 @media only screen and (min-width: 1220px) {
-    #sign-up-button {
-        position: absolute;
-        right: 20px;
     }
 }
 
