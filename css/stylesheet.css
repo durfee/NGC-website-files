@@ -175,6 +175,12 @@ nav a {
     font-size: 1.25em;
 }
 
+#about {
+    background-color: #CC9900; /* place holder color */
+    border-top: 1px solid black;
+
+}
+
 @media only screen and (min-width: 1220px) {
     #sign-up-button {
         position: absolute;
