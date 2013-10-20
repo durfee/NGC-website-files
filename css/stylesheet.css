@@ -152,12 +152,15 @@ nav a {
     margin-bottom: -20px;
 }
 
-#sign-up-button {
     margin: 25px auto;
     width: 128px;
     height: 55px;
     border-radius: 5px;
+#su-button {    
     background-color: #3C3C3C;
+}
+
+#su-button a {
     color: #FFF6DF;
 }
 
