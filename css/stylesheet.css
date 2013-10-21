@@ -194,6 +194,11 @@ nav a {
     border: 1px solid black;
 
 }
+#about div p {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', Verdana, sans-serif;
+}
 
 @media only screen and (min-width: 720px) {
 
