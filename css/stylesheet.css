@@ -120,8 +120,8 @@ body{
 }
 
 .container {
-  /* I see this everywhere, but I don't really know what
-  I should do with it... */
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #footer {
@@ -176,6 +176,11 @@ nav a {
     font-size: 1.5em;
 }
 
+#club-container {
+    height: 1500px;
+
+}
+
 .title {
     font-family: 'Ubuntu', Arial, sans-serif;
     font-weight: 700;
@@ -195,8 +200,12 @@ nav a {
     font-family: 'Open-Sans', Arial, sans-serif;
     font-size: 1em;
 }
+#title-container {
+    height: 600px;
 
-#about {
+}
+
+#about-container {
     background-color: rgba(128,130,133,.6); /* place holder color */
     border: 1px solid black;
 
