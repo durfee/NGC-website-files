@@ -143,6 +143,16 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover, nav a:active {
+    color:#F6DE9E;
+    -webkit-transition: all .1s ease-out;
+       -moz-transition: all .1s ease-out;
+       -o-transition: all .1s ease-out;
+       -ms-transition: all .1s ease-out;
+       transition: all .1s ease-out;      
+}
+
+
 #header nav ul li {
     display: inline;
     padding-right: 2%;
