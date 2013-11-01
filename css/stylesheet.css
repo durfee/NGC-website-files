@@ -191,6 +191,14 @@ nav a:hover, nav a:active {
 
 }
 
+.club-heading {
+    margin-top: 70;
+    margin-bottom: 15;
+    line-height: 1;
+    letter-spacing: 4px;
+
+}
+
 .title {
     font-family: 'Ubuntu', Arial, sans-serif;
     font-weight: 700;
