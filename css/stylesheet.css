@@ -119,6 +119,11 @@ body{
     background-color: #3C3C3C;
 }
 
+.container {
+  /* I see this everywhere, but I don't really know what
+  I should do with it... */
+}
+
 #footer {
     clear:both;
     bottom: 0;
