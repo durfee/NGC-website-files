@@ -252,6 +252,8 @@ nav a:hover, nav a:active {
     letter-spacing: 4px;
 }
 
+.club-logo {
+    max-width: 100%;
 }
 
 .title {
