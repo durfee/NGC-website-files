@@ -132,6 +132,53 @@ body{
     float: right;
 }
 
+/* 
+ * ========= START Collumn Sizing ========== 
+ */
+.col-xs
+.col-s 
+.col-ms
+.col-m 
+.col-ml
+.col-l 
+.col-xl {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs {
+    width: 25%;
+}
+
+.col-s {
+    width: 33.33333334%;
+}
+
+.col-ms {
+    width: 40%;
+}
+
+.col-m {
+    width: 50%;
+}
+
+.col-ml {
+    width: 60%;
+}
+
+.col-l {
+    width: 66.66666666%
+}
+
+.col-xl {
+    width: 75%
+}
+
+/* 
+ * ========= END Collumn Sizing ========== 
+ */
+
 #footer {
     clear:both;
     bottom: 0;
