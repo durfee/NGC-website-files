@@ -207,7 +207,6 @@ nav a:hover, nav a:active {
        transition: all .1s ease-out;      
 }
 
-
 #header nav ul li {
     display: inline;
     padding-right: 2%;
@@ -251,6 +250,7 @@ nav a:hover, nav a:active {
     margin-bottom: 15;
     line-height: 1;
     letter-spacing: 4px;
+}
 
 }
 
@@ -270,23 +270,23 @@ nav a:hover, nav a:active {
     font-size: 1.35em;
 }
 .title p {
-    font-family: 'Open-Sans', Arial, sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     font-size: 1em;
 }
+
 #title-container {
     height: 600px;
-
 }
 
 #about-container {
     background-color: rgba(128,130,133,.6); /* place holder color */
     border: 1px solid black;
-
 }
+
 #about div p {
     padding-left: 40px;
     padding-right: 40px;
-    font-family: 'Open-Sans', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     color: #FFF6DF;
 }
 
