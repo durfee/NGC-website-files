@@ -124,6 +124,14 @@ body{
   padding-right: 10px;
 }
 
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
 #footer {
     clear:both;
     bottom: 0;
