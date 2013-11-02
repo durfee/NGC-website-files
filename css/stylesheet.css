@@ -404,6 +404,24 @@ nav a:hover, nav a:active {
 .clearfix {
     *zoom: 1;
 }
+/* 
+ * Row class and spacing for speaker list.
+ */
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
