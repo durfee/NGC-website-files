@@ -98,8 +98,7 @@ textarea {
    ========================================================================== */
 
 html{
-    background: #428E32;
-
+    background: url(../images/about-bg.jpg) no-repeat center fixed;
 }
 body{
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -254,6 +253,7 @@ nav a:hover, nav a:active {
 
 .club-logo {
     max-width: 100%;
+    background-color: rgba(122,156,165,.5);
 }
 
 .title {
