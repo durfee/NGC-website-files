@@ -328,6 +328,29 @@ nav a:hover, nav a:active {
 }
 
 /* ========== END Speaker Container ========== */
+
+/* ========== START Club Container ========== */
+
+#club-container {
+    height: 800px;
+    border-top: 7px solid orange;
+    background-color: rgba(128,130,133,.6); /* place holder color */
+}
+
+.club-heading {
+
+    line-height: 1;
+    letter-spacing: 4px;
+}
+
+.club-logo {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* ========== END Club Container ========== */
 @media only screen and (min-width: 720px) {
 
     }
