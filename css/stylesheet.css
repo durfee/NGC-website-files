@@ -292,6 +292,42 @@ nav a:hover, nav a:active {
     color: #FFF6DF;
 }
 
+
+/* ========== START Speaker Container ========== */
+#speaker-container {
+    height: 1100px;
+    border-top: 7px solid orange;
+    background-color: rgba(128,130,133,.6); /* place holder color */
+}
+
+#speaker-container .col-s {
+    margin-bottom: 20px;
+    float: left;
+    list-style: none;
+}
+
+#speaker-container ul p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#speaker-container h3 {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-size: 1.6em;
+}
+
+#speaker-container h4 {
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
+    font-size: 2em;
+}
+
+/* ========== END Speaker Container ========== */
 @media only screen and (min-width: 720px) {
 
     }
