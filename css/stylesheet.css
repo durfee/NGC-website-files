@@ -98,12 +98,14 @@ textarea {
    ========================================================================== */
 
 html{
+    background-color: black;
     background: url(../images/about-bg.jpg) no-repeat center fixed;
     margin-top: -15px;
 }
 
 body{
     font-family: 'Open Sans', Arial, sans-serif;
+    color: #FFFFFF;
     padding: 0;
     margin: 0;
     padding-top: 12px;
@@ -198,7 +200,7 @@ nav a:hover, nav a:active {
 
 nav a {
     display: inline-block;
-    color: #494964;
+    color: #F5F5F5;
     padding-left: 6%;
     padding-right: 6%;
     margin-top: -20px;
@@ -226,13 +228,13 @@ header nav ul li {
     border-radius: 4px;
     background-color: rgba(122,156,165,.4);
     text-decoration: none;
-    color: #F6DE9E;
+    color: #FCB500;
     font-size: 1.5em;
     text-align: center;
 }
 
 #su-button:active, #su-button:hover{
-    background-color: #408CD3;
+    background-color: rgba(15, 87, 153, 0.8);
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
        -o-transition: all 0.3s ease-in-out;
@@ -247,7 +249,7 @@ header nav ul li {
 
 #title-container {
     height: 600px;
-    background-color: rgba(122,156,165,.5);
+    background-color: rgba(2, 53, 66, 0.4);
     clear: top;
 }
 
@@ -255,7 +257,7 @@ header nav ul li {
     font-family: 'Ubuntu', Arial, sans-serif;
     font-weight: 700;
     text-align: center;
-    color: #F6DE9E;
+    color: #FCB500;
     padding-top: 175px;
 }
 
@@ -278,15 +280,17 @@ header nav ul li {
 /* ========== START About Container ========== */
 
 #about-container {
-    background-color: rgba(128,130,133,.6); /* place holder color */
-    border-top: 7px solid orange;
+    background-color: rgba(2, 53, 66, 0.4);
 }
 
 #about-container div p {
     padding-left: 40px;
     padding-right: 40px;
     font-family: 'Open Sans', Arial, sans-serif;
-    color: #FFF6DF;
+    color: #FFFFFF;
+}
+.about-heading {
+    color: #FFFFFF;
 }
 
 /* ========== END About Container ========== */
@@ -294,8 +298,7 @@ header nav ul li {
 /* ========== START Speaker Container ========== */
 #speaker-container {
     height: 1100px;
-    border-top: 7px solid orange;
-    background-color: rgba(128,130,133,.6); /* place holder color */
+    background-color: rgba(2, 53, 66, 0.4);
 }
 
 #speaker-container .col-s {
@@ -332,14 +335,14 @@ header nav ul li {
 
 #club-container {
     height: 800px;
-    border-top: 7px solid orange;
-    background-color: rgba(128,130,133,.6); /* place holder color */
+    background-color: rgba(2, 53, 66, 0.4);
 }
 
 .club-heading {
-
+    color: #FFFFFF;
     line-height: 1;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 .club-logo {
@@ -372,6 +375,13 @@ header nav ul li {
     list-style: none;
 }
 
+#footer p {
+    font-size: 0.75em;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #999999;
 /* ========== END Footer ========== */
 
 /* ========== START Responsive CSS ========== */
