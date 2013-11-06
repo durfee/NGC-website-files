@@ -227,7 +227,7 @@ header nav ul li {
     height: 40px;
     right: 20px;
     position: absolute;
-    margin: 80px auto;
+    margin: -30px auto;
     padding-top: 4px;
     border-radius: 4px;
     background-color: rgba(122,156,165,.4);
@@ -301,11 +301,11 @@ header nav ul li {
 
 /* ========== START Speaker Container ========== */
 #speaker-container {
-    height: 1100px;
+    height: 100%;
     background-color: rgba(2, 53, 66, 0.4);
 }
 
-#speaker-container .col-s {
+#speaker-container .col-m {
     text-align: center;
     margin-bottom: 20px;
     float: left;
@@ -314,6 +314,7 @@ header nav ul li {
 
 #speaker-container ul {
     display: table;
+    position: relative;
 }
 
 #speaker-container ul p {
@@ -381,6 +382,7 @@ header nav ul li {
     bottom: 0;
     left: 0;
     right: 0;
+    margin-bottom: -50px;
     height: 60px;
     background-color: rgba(122,156,165,.6);
 }
