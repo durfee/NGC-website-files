@@ -193,7 +193,6 @@ body{
     margin-bottom: 60px;
     padding-top: 10px;
     background-color: rgba(122,156,165,.6);
-    
 }
 
 nav a:hover, nav a:active {
@@ -206,10 +205,7 @@ nav a:hover, nav a:active {
 }
 
 nav a {
-    display: inline-block;
     color: #F5F5F5;
-    padding-left: 6%;
-    padding-right: 6%;
     padding-left: 8%;
     padding-right: 8%;
     margin-top: -20px;
@@ -220,9 +216,6 @@ nav a {
 
 header nav ul li {
     display: inline;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-top: 10px;
 }
 
 /* ========== END Header ========== */
