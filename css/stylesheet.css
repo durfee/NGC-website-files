@@ -205,13 +205,14 @@ nav a:hover, nav a:active {
 }
 
 nav a {
-    color: #F5F5F5;
     padding-left: 8%;
     padding-right: 8%;
     margin-top: -20px;
     border: none;
     text-decoration: none;
     text-align: center;
+    letter-spacing: 1px;
+    color: #F5F5F5;
 }
 
 header nav ul li {
@@ -235,6 +236,7 @@ header nav ul li {
     color: #FCB500;
     font-size: 1.5em;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #su-button:active, #su-button:hover{
@@ -360,6 +362,7 @@ header nav ul li {
     line-height: 1;
     letter-spacing: 4px;
     text-align: center;
+    clear: both;
 }
 
 .club-logo {
@@ -370,7 +373,7 @@ header nav ul li {
 }
 
 #club-container img {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 /* ========== END Club Container ========== */
@@ -399,6 +402,7 @@ header nav ul li {
 
 #footer p {
     font-size: 0.75em;
+    display: inline-block;
 }
 
 #footer a {
@@ -407,7 +411,7 @@ header nav ul li {
 }
 
 .middle {
-    display: inline;
+    display: inline-block;
     padding-left: 50px; 
     clear: both;
 }
