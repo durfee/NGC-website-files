@@ -420,8 +420,17 @@ header nav ul li {
 
 /* ========== START Responsive CSS ========== */
 
-/* ========== Phones ========== */
 @media only screen and (max-width: 768px) {
+
+    html {
+    background-color: black;
+    background: url(../images/about-bg.jpg) no-repeat center relative;
+    }
+
+    img {
+        max-width: 80%;
+        max-height: 80%;
+    }
 
     #header {
         position: relative;
@@ -482,20 +491,53 @@ header nav ul li {
         width: 80%;
     }
 
+    .col-ml {
+        width: 80%;
+    }
+
+    .col-ms {
+        width: 70%;
+    }
+
     #club-container {
         height: 100%;
+        margin-bottom: 10%;
     }
+
+    #footer {
+        height: 100%;
+        margin-bottom: 15px;
+    }
+
 }
 
 @media only screen and (min-width: 1175px) {
+
     .col-m {
         width: 30%;
     }
+
+    .title h1 {
+        font-size: 3.8em;
+    }
+
+    .title h3 {
+        font-size: 2.2em;
+    }
+
+    .title p {
+        font-size: 1.4em;
+    }
+
 }
 
-/* ==========================================================================
+/* ========== END Responsive CSS ========== *
+
+/* 
+   ====================================================================
    Helper classes
-   ========================================================================== */
+   ====================================================================
+*/
 
 /*
  * Image replacement
