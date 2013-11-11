@@ -330,6 +330,7 @@ header nav ul li {
     margin-bottom: 20px;
     float: left;
     list-style: none;
+
 }
 
 #speaker-container ul {
@@ -674,10 +675,10 @@ header nav ul li {
    Modify as content requires.
    ========================================================================== */
 
-@media print,
+@media print {
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+       (min-resolution: 120dpi) 
     /* Style adjustments for high resolution devices */
 }
 
