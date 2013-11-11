@@ -220,6 +220,23 @@ header nav ul li {
     display: inline;
 }
 
+        /* ========== START SOCIAL ========== */
+
+        .social-media ul {
+            list-style: none;
+            float: right;
+        }
+
+        .social-media li {
+            height: 100%;
+            border-left: 1px solid #FFFFFF;
+        }
+
+        .social-media li a {
+            display: block;
+            float: left;
+        }
+
 /* ========== END Header ========== */
 
 /* ========== START Button ========== */
