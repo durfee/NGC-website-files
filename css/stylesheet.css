@@ -405,6 +405,30 @@ header nav ul li {
 
 /* ========== END Club Container ========== */
 
+/* ========== START Sponsors =========== */
+#Sponsors {
+    height: 100%;
+    background-color: rgba(2, 53, 66, 0.4);
+}
+
+#Sponsors h3 {
+    color: #FFFFFF;
+    line-height: 1;
+    letter-spacing: 4px;
+    clear: both;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.sponsor-img {
+    height: 150px;
+    width: 150px;
+    max-height: 40%;
+    max-width: 40%;
+    display: inline-block;
+    padding: 25px;
+}
+
 /* ========== START Footer ========== */
 
 #footer {
