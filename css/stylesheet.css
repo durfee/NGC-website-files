@@ -441,16 +441,6 @@ header nav ul li {
     background-color: rgba(122,156,165,.6);
 }
 
-.soc-media {
-    display: inline-block;
-    color: #B8B8B8;
-    font-size: .6em;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin-bottom: -20px;
-    list-style: none;
-}
-
 #footer p {
     font-size: 0.75em;
     display: inline-block;
