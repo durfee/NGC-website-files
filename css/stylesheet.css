@@ -551,6 +551,13 @@ header nav ul li {
 
 }
 
+@media only screen and (min-width: 769px) and (max-width: 1174px) {
+    .col-m:nth-child(2n+1){
+        clear: left;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
     .club-logo {
         max-width: 40%;
@@ -561,6 +568,10 @@ header nav ul li {
 
     .col-m {
         width: 30%;
+    }
+
+    .col-m:nth-child(3n+1) {
+        clear: left;
     }
 
     .title h1 {
