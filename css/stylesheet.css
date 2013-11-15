@@ -220,22 +220,26 @@ header nav ul li {
     display: inline;
 }
 
-        /* ========== START SOCIAL ========== */
+        /* ========== START Social ========== */
 
         .social-media ul {
             list-style: none;
             float: right;
+            display: block;
         }
 
         .social-media li {
             height: 100%;
             border-left: 1px solid #FFFFFF;
+            padding-right: 10px;
         }
 
         .social-media li a {
             display: block;
             float: left;
         }
+
+        /* ========== END Social ========== */
 
 /* ========== END Header ========== */
 
