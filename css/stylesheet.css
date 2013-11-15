@@ -390,10 +390,9 @@ header nav ul li {
 }
 
 .club-logo {
-    max-width: 100%;
+    max-width: 40%;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 
 #club-container img {
@@ -523,11 +522,21 @@ header nav ul li {
         margin-bottom: 10%;
     }
 
+    .club-logo {
+        max-width: 80%;
+    }
+
     #footer {
         height: 100%;
         margin-bottom: 15px;
     }
 
+}
+
+@media only screen and (min-width: 768px) {
+    .club-logo {
+        max-width: 40%;
+    }
 }
 
 @media only screen and (min-width: 1175px) {
