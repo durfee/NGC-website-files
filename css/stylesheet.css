@@ -286,17 +286,17 @@ ul.social li {
 }
 
 .title h1 {
-    font-size: 3em;
+    font-size: 3.2em;
 }
 
 .title h3 {
     font-family: 'Open Sans Condensed', Arial, sans-serif;
-    font-size: 1.35em;
+    font-size: 1.6em;
 }
 
 .title p {
     font-family: 'Open Sans Condensed', Arial, sans-serif;
-    font-size: 1em;
+    font-size: 1.27em;
 }
 
 /* ========== END Title Container ========== */
@@ -557,6 +557,7 @@ ul.social li {
     }
 
     .club-logo {
+        height: auto;
         max-width: 80%;
     }
 
